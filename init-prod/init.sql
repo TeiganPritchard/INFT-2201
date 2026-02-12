@@ -9,4 +9,3 @@ INSERT INTO mail (subject, body)
 VALUES ('Welcome!', 'This is your first mail.')
 ON CONFLICT DO NOTHING;
 
-docker-compose up --build
